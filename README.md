@@ -1,2 +1,2 @@
-# Identdatastore proto
-Identification data storage service thrift protocol.
+# Identdocstore proto
+Identification documents storage service thrift protocol.

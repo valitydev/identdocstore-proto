@@ -1,5 +1,5 @@
-{application, identdatastore_proto, [
-    {description, "Thrift proto for identification data storage."},
+{application, identdocstore_proto, [
+    {description, "Thrift proto for identification documents storage."},
     {vsn, "0.1.0"},
     {applications, [
         kernel,

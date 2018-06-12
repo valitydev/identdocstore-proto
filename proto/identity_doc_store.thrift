@@ -1,7 +1,7 @@
 include "base.thrift"
 
-namespace java com.rbkmoney.damsel.identdatastore.docs
-namespace erlang identdatastore_docs
+namespace java com.rbkmoney.damsel.identdocstore
+namespace erlang identdocstore
 
 /**
  * Интерфейс для безопасного хранения идентификационных данных

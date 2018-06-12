@@ -1,7 +1,7 @@
 #!groovy
 // -*- mode: groovy -*-
 
-build('identdatastore-proto', 'docker-host') {
+build('identdocstore-proto', 'docker-host') {
     checkoutRepo()
     loadBuildUtils()
 
