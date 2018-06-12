@@ -1,0 +1,12 @@
+{application, identdatastore_proto, [
+    {description, "Thrift proto for identification data storage."},
+    {vsn, "0.1.0"},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {maintainers, [
+        "Andrey Fadeev <a.fadeev@rbkmoney.com>",
+        "Anton Belyaev <a.belyaev@rbkmoney.com>"
+    ]}
+]}.
