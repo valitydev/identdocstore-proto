@@ -19,5 +19,18 @@ build('identdocstore-proto', 'docker-host') {
             sh "make wc_compile"
         }
 
+        // Java
+        runStage('Execute build container') {
+            withCredentials([[$class: 'FileBinding', credentialsId: 'java-maven-settings.xml', variable: 'SETTINGS_XML']]) {
+                if (env.BRANCH_NAME == 'master') {
+                    sh 'make wc_deploy_nexus SETTINGS_XML=$SETTINGS_XML'
+                } else if (env.BRANCH_NAME.startsWith('epic/')) {
+                    sh 'make wc_deploy_epic_nexus SETTINGS_XML=$SETTINGS_XML'
+                } else {
+                    sh 'make wc_java_compile SETTINGS_XML=$SETTINGS_XML'
+                }
+            }
+        }
+
     }
 }
