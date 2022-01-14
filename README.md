@@ -2,7 +2,6 @@
 Identification documents storage service thrift protocol.
 
 
-
 # Требования к оформлению Thrift IDL файлов
 
 - __Namespace:__ 
@@ -15,11 +14,6 @@ Identification documents storage service thrift protocol.
 	
 	
 # Java development
-
-Собрать дамзель и инсталировать новый jar в локальный мавен репозиторий:
-
-* make wc_compile
-* make wc_java_install LOCAL_BUILD=true SETTINGS_XML=path_to_rbk_maven_settings
 
 Чтобы ипользовать несколько версий дамзели в проекте используте classifier:v${commit.number}
 
