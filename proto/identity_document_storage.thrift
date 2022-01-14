@@ -1,6 +1,6 @@
 include "base.thrift"
 
-namespace java com.rbkmoney.identdocstore.identity_document_storage
+namespace java dev.vality.identdocstore.identity_document_storage
 namespace erlang identdocstore
 
 /**
