@@ -5,7 +5,7 @@
  */
 
 namespace java dev.vality.identdocstore.base
-namespace erlang identdocstore_base
+namespace erlang identdocstore.base
 
 /**
  * Отметка во времени согласно RFC 3339.

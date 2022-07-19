@@ -1,9 +1,12 @@
 name: Erlang build
 
 on:
-  pull_request:
+  push:
     branches:
-      - "*"
+      - 'master'
+      - 'epic/**'
+  pull_request:
+    branches: ['**']
 
 jobs:
   build:
