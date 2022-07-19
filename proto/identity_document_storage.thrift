@@ -1,7 +1,7 @@
 include "base.thrift"
 
 namespace java dev.vality.identdocstore.identity_document_storage
-namespace erlang identdocstore
+namespace erlang identdocstore.identdoc
 
 /**
  * Интерфейс для безопасного хранения идентификационных данных
